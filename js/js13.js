@@ -1,13 +1,13 @@
 
 let char = {
-    hp: 7,
+    hp: 8,
     maxhp: 10,
-    mp: 9,
+    mp: 8,
     maxmp: 10,
     cp: 7,
     maxcp: 10,
     dmg: 1,
-    name: "Полька",
+    name: "Карп",
     class: "noclass",
     // skills: {
     //     punch: punch,

@@ -1,23 +1,26 @@
 
 let char = {
-    hp: 10,
+    hp: 8,
     maxhp: 10,
-    mp:10,
+    mp: 9,
     maxmp: 10,
-    dmg:1,
-    name:"Лиса",
-    class:"noclass",
-    skills: {
-        punch: punch,
-        fireball: fair
-    },
-    avatar:"/picture/i.webp"
+    cp: 6,
+    maxcp: 10,
+    dmg: 1,
+    name: "Лиса",
+    class: "noclass",
+    // skills: {
+    //     punch: punch,
+    //     fireball: fair
+    // },
+    avatar: "/picture/i.webp"
 }
 
 function update(char) {
     $("#name").text(char.name);
     $("#hp .line").css("width", `${char.hp * 100 / char.maxhp}%`)
     $("#mp .line").css("width", `${char.mp * 100 / char.maxmp}%`)
+    $("#cp .line").css("width", `${char.cp * 100 / char.maxcp}%`)
     $("#avatar").attr("src", char.avatar);
 }
 
@@ -39,9 +42,9 @@ for (skill in char.skills) {
 }
 
 
-setInterval(() => {
-    if(char.hp < char.maxhp) {
-        char.hp += 0.1
-    }
-    update(char)
-}, 450);
+// setInterval(() => {
+//     if(char.hp < char.maxhp) {
+//         char.hp += 0.1
+//     }
+//     update(char)
+// }, 450);

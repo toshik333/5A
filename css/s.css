@@ -4,16 +4,18 @@ img {
     height: 70px;
     width: 150px;
 }
+
 h1 {
     top: 0px;
 }
+
 .block {
     left: 0px;
     margin: auto;
 }
 
 body {
-    background-image: url(/picture/фон2.jpg);
+    background-image: url(../picture/фон2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
@@ -21,6 +23,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    height: 800px;
 }
 
 h2 {
@@ -28,15 +31,19 @@ h2 {
     margin-right: auto;
     margin-top: 200px;
     width: 25em;
-    
+
 }
+
 p {
     color: rgb(0, 0, 0);
     font-size: 50px;
-}p2 {
+}
+
+p2 {
     color: rgb(255, 0, 0);
     font-size: 50px;
 }
+
 p3 {
     color: rgb(0, 0, 0);
     font-size: 25px;
@@ -59,8 +66,8 @@ button {
     transition: 0.2s;
 }
 
-.blue{
-    color: #4cc9f0;
+.blue {
+    color: #ffffff;
 }
 
 .neon-btn:hover {
@@ -70,5 +77,5 @@ button {
 
 .blue:hover {
     background-color: #4cc9f0;
-    box-shadow: 10px 10px 100px 6px rgba(76, 201, 240, 1);
+    box-shadow: 10px 10px 100px 6px rgb(116, 185, 206);
 }
