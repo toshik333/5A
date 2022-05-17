@@ -13,7 +13,7 @@ let char = {
     //     punch: punch,
     //     fireball: fair
     // },
-    avatar: "/picture/i.webp"
+    avatar: "../picture/i.webp"
 }
 
 function update(char) {
