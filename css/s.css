@@ -29,7 +29,7 @@ body {
 h2 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 20%;
     width: 25em;
 
 }
@@ -39,20 +39,28 @@ p {
     font-size: 50px;
 }
 
+p :hover {
+    color: #ffffff;
+}
+
 p2 {
     color: rgb(255, 0, 0);
     font-size: 50px;
 }
 
 p3 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
+}
+
+p3 :hover {
+    color: black;
 }
 
 button {
     margin-left: 35%;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 10%;
     width: 20em;
 }
 
