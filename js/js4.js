@@ -2,18 +2,18 @@
 let char = {
     hp: 5,
     maxhp: 10,
-    mp: 5,
+    mp: 4,
     maxmp: 10,
-    cp: 6,
+    cp: 5,
     maxcp: 10,
     dmg: 1,
-    name: "Богдан",
+    name: "Игнат",
     class: "noclass",
     // skills: {
     //     punch: punch,
     //     fireball: fair
     // },
-    avatar: "../picture/бигдан.jpg"
+    avatar: "../picture/noname.jpg"
 }
 
 function update(char) {

@@ -7,13 +7,13 @@ let char = {
     cp: 10,
     maxcp: 10,
     dmg: 1,
-    name: "Смерть с косой",
+    name: "Антон",
     class: "noclass",
     // skills: {
     //     punch: punch,
     //     fireball: fair
     // },
-    avatar: "../picture/бигдан.jpg"
+    avatar: "../picture/noname.jpg"
 }
 
 function update(char) {

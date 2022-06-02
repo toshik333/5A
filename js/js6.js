@@ -7,7 +7,7 @@ let char = {
     cp: 7,
     maxcp: 10,
     dmg: 1,
-    name: "Полька",
+    name: "Полина",
     class: "noclass",
     // skills: {
     //     punch: punch,
